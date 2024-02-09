@@ -7,6 +7,11 @@
         {
             return c*c;
         }
+
+        static void decrease(ref int a, int decr)
+        {
+            a-=decr;
+        }
         static int sum(int a, int b)
         {
             return a + b;
@@ -17,6 +22,9 @@
             int h = pow(sum(g, g+1));
             Console.WriteLine("Hello, World!"+ g +"      dadada       " + h  );
 
+            decrease(ref h, g);
+
+            Console.WriteLine(h + "       Adaaaaaaaada");
         }
     }
 }
