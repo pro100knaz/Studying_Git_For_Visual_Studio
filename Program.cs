@@ -2,9 +2,16 @@
 {
     internal class Program
     {
+
+        static int pow(int c)
+        {
+            return c*c;
+        }
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int g = pow(4);
+            Console.WriteLine("Hello, World!", g, "      dadada");
         }
     }
 }
