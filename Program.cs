@@ -24,7 +24,7 @@
 
             decrease(ref h, g);
 
-            Console.WriteLine(h + "       Adaaaaaaaada");
+            Console.WriteLine(h + "       Adaaaaaaaada" + g);
         }
     }
 }
