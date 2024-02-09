@@ -20,7 +20,7 @@
         {
             int g = pow(4);
             int h = pow(sum(g, g+1));
-            Console.WriteLine("Hello, World!"+ g +"      dadada       " + h  );
+          //  Console.WriteLine("Hello, World!"+ g +" яадждыпв  дуаь джьдфуажьдждьыажьдыаыжьдыуаждьыажьддд     dadada       " + h  );
 
             decrease(ref h, g);
 
