@@ -7,7 +7,10 @@
         {
             return c*c;
         }
-
+        static int mod(int a, int b)
+        {
+            return a % b;
+        }
         static void decrease(ref int a, int decr)
         {
             a-=decr;
@@ -18,13 +21,7 @@
         }
         static void Main(string[] args)
         {
-            int g = pow(4);
-            int h = pow(sum(g, g+1));
-            Console.WriteLine("Hello, World!"+ g +"      dadada       ");
-
-            decrease(ref h, g);
-
-            Console.WriteLine(h + "       Adaaaaaaaada" + g);
+            Console.WriteLine(mod(201, 10) + "       Adaaaaaaaada");
         }
 
     }
