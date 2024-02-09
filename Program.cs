@@ -7,11 +7,16 @@
         {
             return c*c;
         }
-
+        static int sum(int a, int b)
+        {
+            return a + b;
+        }
         static void Main(string[] args)
         {
             int g = pow(4);
-            Console.WriteLine("Hello, World!", g, "      dadada");
+            int h = pow(sum(g, g+1));
+            Console.WriteLine("Hello, World!"+ g +"      dadada       " + h  );
+
         }
     }
 }
