@@ -29,7 +29,8 @@
             decrease(ref h, g);
             //jcndоставить оба варианта
             Console.WriteLine(h + "       Adaaaaaaaada" + g);
-            Console.WriteLine("here mus be mod instead of all this trash!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            Console.WriteLine("here mus be mod instead of all this trash!!!!");
+            Console.WriteLine("its my first visual studio code starting");
         }
 
     }
